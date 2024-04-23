@@ -1,0 +1,51 @@
+*, ::before, ::after {
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    color:white ;
+    background: linear-gradient(to right, #402ea7, #9e9be7);
+
+}
+h1{
+    font-size: 45px;
+}
+h1 span:nth-child(1){
+    font-size: 20px;
+    font-weight: 200;
+}
+
+h1 , h2 {
+    text-align: center;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 500px;
+    grid-gap: 1px;
+    background-color: #ffff;
+    border : 1px solid #f1f1f1;
+    margin: 50px auto;
+
+}
+.cell{
+    /* min-height: 100px;
+    min-width: 100px; */
+    /* gerer la largeur et la hauteur d'un element  */
+    aspect-ratio: 1/1;
+    background-color: #0b0317;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+}
+.info{
+    font-size: 30px;
+    font-weight: 300;
+    margin: 20px;
+}
